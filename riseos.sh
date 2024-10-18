@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests/
 
 # Initialize the ROM manifest using RisingTechOSS repository (branch 'fourteen')
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
 
 # Synchronize the repository using the custom 'resync.sh' script
 /opt/crave/resync.sh
@@ -49,7 +49,7 @@ git clone https://github.com/POS-sunny/vendor_aosp.git --depth 1 -b fourteen ven
 . build/envsetup.sh
 
 # Select build target (lunch) for Xiaomi Sunny device with user build type
-riseup sunny user
+lunch aosp_sunny-ap2a-user
 
 # Start the build process using 'rise' command (equivalent to 'make')
-rise b
+mka bacon
