@@ -11,7 +11,7 @@ repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 
 # Clean up unnecessary directories after repo sync
 rm -rf hardware/qcom-caf/sm8150/media   # Remove outdated Qualcomm CAF media hardware
-rm -rf vendor/lineage                   # Remove existing LineageOS vendor files
+rm -rf vendor/aosp                   # Remove existing LineageOS vendor files
 
 # Clone the device tree repositories for Xiaomi Sunny and related kernel, common configurations
 # Device-specific tree
