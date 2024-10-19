@@ -31,7 +31,7 @@ git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fourteen 
 git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git --depth 1 -b fourteen vendor/qcom/opensource/core-utils
 
 # Clone hardware-specific files for Xiaomi devices
-git clone https://github.com/PixelOS-AOSP/hardware_xiaomi.git --depth 1 -b fourteen hardware/xiaomi
+git clone https://github.com/dpenra-sunny/hardware_xiaomi.git --depth 1 -b fourteen hardware/xiaomi
 
 # Clone prebuilt GCC compilers (used for building the kernel and other components)
 git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf.git --depth 1 -b 14.0.0 prebuilts/gcc/linux-x86/aarch64/aarch64-elf
